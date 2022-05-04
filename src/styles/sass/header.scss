@@ -1,0 +1,33 @@
+header {
+    height: 10vh;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+.section-home {
+    box-shadow: inset 0px -3px 3px rgb(128 128 128 / 20%);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.navigation {
+    width: 90%;
+    margin: auto;
+}
+
+.nav-list li {
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: black;
+}
+
+.nav-list {
+    align-items: center;
+}
+
+a.nav-active li{
+    color: #FFAD12;
+}
