@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="footer flex-center-center">
-      <nav className="navigation">
+    <footer className="footer flex-center flex-center-center">
+      <nav className="div-footer">
         <ul className="nav-list-footer flex-between">
           <Link to="/contacts">
             <li>Contacts</li>
@@ -14,13 +14,11 @@ const Footer = () => {
           </Link>
           <Link to="/">
             <li>
-              <div className="img-resp">
-                <img
-                  className="logo"
-                  src="./logoMarco.png"
-                  alt="logo du site"
-                />
-              </div>
+              <ul className="adress">
+                <li>24 Rue Thiac</li>
+                <li>33 000</li>
+                <li>Bordeaux</li>
+              </ul>
             </li>
           </Link>
           <Link to="/galery">

@@ -1,5 +1,5 @@
 .home-presentation {
-    width: 90%;
+    width: 80%;
     margin: auto;
     height: 80vh;
 }
@@ -10,6 +10,7 @@
     text-align: justify;
     font-size: 25px;
     font-family: 'Open Sans', sans-serif;
+    padding-right: 10px;
 }
 
 .name {
@@ -36,4 +37,5 @@
 
 .photo-profile {
     max-height: 100%;
+    max-width: 100%;
 }

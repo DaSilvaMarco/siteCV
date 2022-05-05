@@ -1,19 +1,33 @@
-header {
+.header {
     height: 10vh;
+    box-shadow: inset 0px -3px 3px rgb(128 128 128 / 20%);
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-header {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-logo {
+    width: 20%
 }
 
 .logo {
-    max-width: 100px;
+    max-width: 130px;
 }
 
 .section-home {
-    box-shadow: inset 0px -3px 3px rgb(128 128 128 / 20%);
-    padding-bottom: 20px;
-    padding-top: 20px;
+    width: 60%;
 }
 
 .navigation {
-    width: 90%;
     margin: auto;
 }
 
@@ -22,6 +36,24 @@ header {
     text-transform: uppercase;
     font-size: 20px;
     color: black;
+
+}
+
+.div-nav {
+    text-align: center;
+    display:flex;
+    align-items: center;
+    width: 100%;
+}
+
+.div-nav ul {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    
+    a {
+        color: black;
+    }
 }
 
 .nav-list {

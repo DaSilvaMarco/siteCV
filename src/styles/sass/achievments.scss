@@ -1,5 +1,5 @@
 .achievments-presentation {
-    width: 90%;
+    width: 80%;
     margin: auto;
     height: 80vh;
 }
@@ -14,4 +14,49 @@
 .achievments-description {
     margin-top: 0;
     font-size: 20px;
+}
+
+.grid {
+    height: 70vh;
+    display: grid;
+    gap: 5px 5px;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px 150px;
+    grid-template-areas: 
+        "a a d d"
+        "a a d d"
+        "c e b b"
+        "f g b b";
+}
+
+.grid1 {
+    grid-area: a;
+}
+
+.grid2 {
+    grid-area: b;
+}
+
+.grid3 {
+    grid-area: c;
+}
+
+.grid4 {
+    grid-area: d;
+}
+
+.grid5 {
+    grid-area: e;
+}
+
+.grid6 {
+    grid-area: f;
+}
+
+.grid7 {
+    grid-area: g;
+}
+
+.img-achievments1, .img-achievments2, .img-achievments3, .img-achievments4, .img-achievments5, .img-achievments6, .img-achievments7 {
+    height: 100%;
 }

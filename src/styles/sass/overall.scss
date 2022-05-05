@@ -1,9 +1,11 @@
 body {
     padding: 0;
     margin: 0;
-    background-color:rgba(182, 187, 192, 0.1);
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    background: url("../../../public/img/wallpaper.png") center/cover;
+    background-color: rgba(255 255 255 / 10%)
+
 }
 
 li {
