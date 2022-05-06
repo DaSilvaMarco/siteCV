@@ -1,11 +1,10 @@
 .header {
     height: 10vh;
-    box-shadow: inset 0px -3px 3px rgb(128 128 128 / 20%);
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
+    box-shadow: inset 0px -3px 3px rgb(247 171 48 / 50%);
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
 }
 
 .div-header {
@@ -50,10 +49,14 @@
     justify-content: space-between;
     display: flex;
     width: 100%;
-    
-    a {
-        color: black;
-    }
+}
+
+.div-nav ul a {
+    color: black;
+}
+
+.div-nav ul a:hover {
+    color: #FFAD12;
 }
 
 .nav-list {

@@ -17,31 +17,25 @@ const Navigation = () => {
               to="/skills"
               className={(nav) => (nav.isActive ? "nav-active" : "")}
             >
-              <li>Skills</li>
+              <li>Skills et Diplôme</li>
             </NavLink>
             <NavLink
-              to="/contacts"
+              to="/experiences"
               className={(nav) => (nav.isActive ? "nav-active" : "")}
             >
-              <li>Contacts</li>
-            </NavLink>
-            <NavLink
-              to="/diplomas"
-              className={(nav) => (nav.isActive ? "nav-active" : "")}
-            >
-              <li>Diplômes</li>
-            </NavLink>
-            <NavLink
-              to="/languages"
-              className={(nav) => (nav.isActive ? "nav-active" : "")}
-            >
-              <li>Langues</li>
+              <li>Expériences</li>
             </NavLink>
             <NavLink
               to="/passions"
               className={(nav) => (nav.isActive ? "nav-active" : "")}
             >
               <li>Passions</li>
+            </NavLink>
+            <NavLink
+              to="/galery"
+              className={(nav) => (nav.isActive ? "nav-active" : "")}
+            >
+              <li>Galerie</li>
             </NavLink>
           </ul>
         </div>

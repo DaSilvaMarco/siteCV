@@ -1,0 +1,60 @@
+const passionsPictures = [
+  {
+    id: 1,
+    name: "boardgame2.png",
+    alt: "deux dés",
+    src: "/img/passions/boardgame2.png",
+    classDiv: "",
+    classImg: "",
+  },
+  {
+    id: 2,
+    name: "series.png",
+    alt: "écran d'ordinateur",
+    src: "/img/passions/series.png",
+    classDiv: "",
+    classImg: "",
+  },
+  {
+    id: 3,
+    name: "fcporto.png",
+    alt: "logo fc porto",
+    src: "/img/passions/fcporto.png",
+    classDiv: "",
+    classImg: "",
+  },
+  {
+    id: 4,
+    name: "nanterre.png",
+    alt: "logo de nanterre 92",
+    src: "/img/passions/nanterre.png",
+    classDiv: "",
+    classImg: "",
+  },
+  {
+    id: 5,
+    name: "videogames.png",
+    alt: " écran Game Over",
+    src: "/img/passions/videogames.png",
+    classDiv: "",
+    classImg: "",
+  },
+  {
+    id: 6,
+    name: "theatre.png",
+    alt: " salle de cinéma",
+    src: "/img/passions/theatre.png",
+    classDiv: "",
+    classImg: "",
+  },
+  {
+    id: 7,
+    name: "boardgame1.png",
+    alt: "jeu d'échecs",
+    src: "/img/passions/boardgame1.png",
+    classDiv: "",
+    classImg: "",
+  },
+];
+
+export default passionsPictures;

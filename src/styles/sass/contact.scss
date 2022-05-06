@@ -1,0 +1,17 @@
+.contact-pres {
+    width: 80%;
+    margin: auto;
+    height: 80vh;
+    align-items: center;
+    display: flex;
+}
+
+.contact-pres ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-pres ul li {
+    width: 15%;
+}

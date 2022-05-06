@@ -5,7 +5,6 @@ import achievments from "../data/Achievments";
 import AchievmentsList from "../components/AchievmentsList";
 import pictures from "../data/Pictures";
 import PicturesList from "../components/PicturesList";
-import error from "../data/Error";
 
 const Achievments = () => {
   const [pic, setPic] = useState([pictures]);
@@ -19,17 +18,11 @@ const Achievments = () => {
     for (let i = 0; i < pictures.length; i++) {
       let randomImg = pictures[Math.floor(Math.random() * pictures.length)];
       let gridImg = newPictures.length + 1;
-      let errorImg = error[0];
 
       if (!newPictures.includes(randomImg)) {
         randomImg.classDiv = `grid${gridImg}`;
         randomImg.classImg = `img-resp img-achievments${gridImg}`;
         newPictures.push(randomImg);
-      } else if (!newPictures.includes(errorImg)) {
-        errorImg.id = gridImg;
-        errorImg.classDiv = `grid${gridImg}`;
-        errorImg.classImg = `img-resp img-achievments${gridImg}`;
-        newPictures.push(errorImg);
       }
     }
     setPic(newPictures);
@@ -39,12 +32,14 @@ const Achievments = () => {
     <div>
       <Header />
       <div className="achievments-presentation flex-center">
-        <div className="presentation">
+        <div className="achievments-pres flex-center align-center">
+          <div>
           {achievments.map((achievments) => (
             <AchievmentsList achievments={achievments} key={achievments.id} />
           ))}
+          </div>
         </div>
-        <div className="profile flex-center-center">
+        <div className="profile flex-center align-center">
           <div>
             <div className="grid">
               {pic.slice(0, 7).map((picture, index) => (

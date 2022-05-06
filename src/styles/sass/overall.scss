@@ -3,9 +3,8 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-    background: url("../../../public/img/wallpaper.png") center/cover;
-    background-color: rgba(255 255 255 / 10%)
-
+    font-size: 18px;
+    background: url("../../../public/img/wallpaper.png") center/cover no-repeat ;
 }
 
 li {
@@ -41,8 +40,25 @@ ul {
     justify-content: flex-end;
 }
 
-.flex-center-center {
+.align-center {
     display: flex;
-    justify-content: center;
     align-items: center;
+}
+
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-nav li a{
+    color: black;
+}
+
+.footer-nav a {
+    color: black;
 }

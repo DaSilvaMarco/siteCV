@@ -1,25 +1,34 @@
 .footer {
     height: 10vh;
-    box-shadow: inset 0px 3px 3px rgb(128 128 128 / 20%);
-    border-top-left-radius: 40%;
-    border-top-right-radius: 40%;
+    box-shadow: inset 0px 3px 3px rgb(247 171 48 / 30%);
+    background-color: white;
 }
 
-.div-footer {
+.footer-contacts {
+    width: 100%;
+}
+
+.footer-pres {
     width: 80%;
+    margin: auto;
 }
 
-.nav-list-footer {
-    align-items: center;
-
-     li {
-        margin: auto;
-        text-transform: uppercase;
-        font-size: 20px;
-        color: black;
-    }
+.footer-left, .footer-right {
+    width: 100%;
 }
 
-.adress li {
-    text-align: center;
+.footer-nav-left, .footer-nav-righté {
+    width: 100%;
+}
+
+.adress p {
+    margin: 0;
+}
+
+.margin-contacts {
+    width: 50px;
+}
+
+.phone {
+    margin: 0;
 }

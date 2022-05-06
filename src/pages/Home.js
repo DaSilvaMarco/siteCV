@@ -10,17 +10,17 @@ const Home = () => {
     <section>
       <Header />
       <div className="home-presentation flex-center">
-        <div className="presentation flex-center-center">
-          {person.map((person) => (
-            <HomeList key={person.id} person={person} />
-          ))}
-        </div>
-        <div className="profile img-resp flex-right">
+        <div className="profile img-resp align-center">
           <img
             className="photo-profile"
             src="./img/profile.png"
             alt="profil Marco Da Silva"
           />
+        </div>
+        <div className="presentation flex-center align-center">
+          {person.map((person) => (
+            <HomeList key={person.id} person={person} />
+          ))}
         </div>
       </div>
 
