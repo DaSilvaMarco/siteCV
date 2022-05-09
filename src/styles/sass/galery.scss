@@ -1,82 +1,79 @@
 .galery-pres {
     height: 80vh;
-    width: 80%;
-    margin: auto;
 }
 
 .galery-grid {
     justify-content: center;
-    flex-wrap: wrap;
     width: 1300px;
     height: auto;
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(auto-fill, 150px);
     grid-template-areas: 
-        "a a a b c d d e"
-        "a a a f g d d h"
-        "a a a i i j k k"
-        "l m n i i o k k";
+        "grid1 grid1 grid1 grid2 grid3 grid4 grid4 grid5"
+        "grid1 grid1 grid1 grid6 grid7 grid4 grid4 grid8"
+        "grid1 grid1 grid1 grid9 grid9 grid10 grid11 grid11"
+        "grid12 grid13 grid14 grid9 grid9 grid15 grid11 grid11";
 }
 
 .galery-grid1 {
-    grid-area: a;
+    grid-area: grid1;
 }
 
 .galery-grid2 {
-    grid-area: b;
+    grid-area: grid2;
 }
 
 .galery-grid3 {
-    grid-area: c;
+    grid-area: grid3;
 }
 
 .galery-grid4 {
-    grid-area: d;
+    grid-area: grid4;
 }
 
 .galery-grid5 {
-    grid-area: e;
+    grid-area: grid5;
 }
 
 .galery-grid6 {
-    grid-area: f;
+    grid-area: grid6;
 }
 
 .galery-grid7 {
-    grid-area: g;
+    grid-area: grid7;
 }
 
 .galery-grid8 {
-    grid-area: h;
+    grid-area: grid8;
 }
 
 .galery-grid9 {
-    grid-area: i;
+    grid-area: grid9;
 }
 
 .galery-grid10 {
-    grid-area: j;
+    grid-area: grid10;
 }
 
 .galery-grid11 {
-    grid-area: k;
+    grid-area: grid11;
 }
 
 .galery-grid12 {
-    grid-area: l;
+    grid-area: grid12;
 }
 
 .galery-grid13 {
-    grid-area: m;
+    grid-area: grid13;
 }
 
 .galery-grid14 {
-    grid-area: n;
+    grid-area: grid14;
 }
 
 .galery-grid15 {
-    grid-area: o;
+    grid-area: grid15;
 }
 
 .galery-grid1 img, .galery-grid2 img, .galery-grid3 img, .galery-grid4 img, .galery-grid5 img, .galery-grid6 img, .galery-grid7 img, .galery-grid8 img, .galery-grid9 img, .galery-grid10 img, .galery-grid11 img, .galery-grid12 img, .galery-grid13 img, .galery-grid14 img, .galery-grid15 img  {
@@ -86,4 +83,70 @@
 
 .img-achievments1, .img-achievments2, .img-achievments3, .img-achievments4, .img-achievments5, .img-achievments6, .img-achievments7, .img-achievments8, .img-achievments9, .img-achievments10, .img-achievments11, .img-achievments12, .img-achievments13, .img-achievments14, .img-achievments15 {
     height: 100%;
+}
+
+
+@media screen and (max-width: 1350px) {
+
+    .galery-grid {
+        justify-content: center;
+        width: 900px;
+        height: auto;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(8, 100px);
+        grid-template-areas: 
+            "grid1 grid1 grid1 grid2 grid3 grid4 grid4 grid5"
+            "grid1 grid1 grid1 grid6 grid7 grid4 grid4 grid8"
+            "grid1 grid1 grid1 grid9 grid9 grid10 grid11 grid11"
+            "grid12 grid13 grid14 grid9 grid9 grid15 grid11 grid11";
+    }
+
+
+}
+
+@media screen and (max-width: 950px) {
+
+    .galery-grid {
+        justify-content: center;
+        width: 600px;
+        height: auto;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(8, 60px);
+        grid-template-areas: 
+            "grid1 grid1 grid1 grid2 grid3 grid4 grid4 grid5"
+            "grid1 grid1 grid1 grid6 grid7 grid4 grid4 grid8"
+            "grid1 grid1 grid1 grid9 grid9 grid10 grid11 grid11"
+            "grid12 grid13 grid14 grid9 grid9 grid15 grid11 grid11";
+    }
+
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .galery-pres {
+        height: auto;
+    }
+
+    .galery-grid {
+        justify-content: center;
+        height: auto;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 130px 130px 130px;
+        grid-template-areas: 
+            "grid1 grid1 grid2"
+            "grid1 grid1 grid3"
+            "grid4 grid5 grid5"
+            "grid6 grid5 grid5"
+            "grid7 grid7 grid8"
+            "grid7 grid7 grid9"
+            "grid10 grid11 grid11"
+            "grid12 grid11 grid11"
+            "grid13 grid15 grid14"
+    }
+
+
 }
