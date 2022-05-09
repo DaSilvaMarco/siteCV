@@ -20,7 +20,7 @@ const Skills = () => {
         <div className="flex-around align-center">
           <div className="skills-left">
             <div>
-              <p>Langues :</p>
+              <p className="skills-title">Langues :</p>
               <ul>
                 {skills.map((element) =>
                   element.type === "language" ? (
@@ -28,7 +28,7 @@ const Skills = () => {
                   ) : null
                 )}
               </ul>
-              <p>Personnalité :</p>
+              <p className="skills-title">Personnalité :</p>
               <ul>
                 {skills.map((element) =>
                   element.type === "personality" ? (
@@ -38,16 +38,18 @@ const Skills = () => {
               </ul>
             </div>
             <div>
-              <p>
+              <p className="skills-cv">
                 <a href="./marcoDaSilvaDiplome.pdf">
                   Télécharger Diplôme Développeur Web RNCP5
                 </a>
               </p>
-              <img
-                className="img-resp img-cv"
-                src="./img/cv.png"
-                alt="diplôme dev web"
-              />
+              <div className="flex-center align-center">
+                <img
+                  className="img-resp img-cv"
+                  src="./img/cv.png"
+                  alt="diplôme dev web"
+                />
+              </div>
             </div>
           </div>
           <div className="skills-right flex-center align-center">

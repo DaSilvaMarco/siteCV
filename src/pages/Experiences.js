@@ -10,7 +10,7 @@ const Experiences = () => {
       <Header />
       <div className="experiences-pres flex-center align-center">
         <div>
-          <ul>
+          <ul className="exp-list">
             {experiences.map((exp) => (
               <ExperiencesList key={exp.id} exp={exp} />
             ))}

@@ -1,0 +1,89 @@
+.galery-pres {
+    height: 80vh;
+    width: 80%;
+    margin: auto;
+}
+
+.galery-grid {
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1300px;
+    height: auto;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, 150px);
+    grid-template-areas: 
+        "a a a b c d d e"
+        "a a a f g d d h"
+        "a a a i i j k k"
+        "l m n i i o k k";
+}
+
+.galery-grid1 {
+    grid-area: a;
+}
+
+.galery-grid2 {
+    grid-area: b;
+}
+
+.galery-grid3 {
+    grid-area: c;
+}
+
+.galery-grid4 {
+    grid-area: d;
+}
+
+.galery-grid5 {
+    grid-area: e;
+}
+
+.galery-grid6 {
+    grid-area: f;
+}
+
+.galery-grid7 {
+    grid-area: g;
+}
+
+.galery-grid8 {
+    grid-area: h;
+}
+
+.galery-grid9 {
+    grid-area: i;
+}
+
+.galery-grid10 {
+    grid-area: j;
+}
+
+.galery-grid11 {
+    grid-area: k;
+}
+
+.galery-grid12 {
+    grid-area: l;
+}
+
+.galery-grid13 {
+    grid-area: m;
+}
+
+.galery-grid14 {
+    grid-area: n;
+}
+
+.galery-grid15 {
+    grid-area: o;
+}
+
+.galery-grid1 img, .galery-grid2 img, .galery-grid3 img, .galery-grid4 img, .galery-grid5 img, .galery-grid6 img, .galery-grid7 img, .galery-grid8 img, .galery-grid9 img, .galery-grid10 img, .galery-grid11 img, .galery-grid12 img, .galery-grid13 img, .galery-grid14 img, .galery-grid15 img  {
+    border-radius: 10px;
+    border: 1px #FFAD12 solid;
+}
+
+.img-achievments1, .img-achievments2, .img-achievments3, .img-achievments4, .img-achievments5, .img-achievments6, .img-achievments7, .img-achievments8, .img-achievments9, .img-achievments10, .img-achievments11, .img-achievments12, .img-achievments13, .img-achievments14, .img-achievments15 {
+    height: 100%;
+}

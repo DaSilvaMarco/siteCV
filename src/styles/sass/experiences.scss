@@ -4,3 +4,20 @@
     text-align: center;
     height: 80vh;
 }
+
+.exp-name {
+    color: #FFAD12 ;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.exp-date {
+    color: grey;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.exp-list ul:not(:last-child){
+    margin-bottom: 40px;
+}
+

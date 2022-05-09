@@ -4,6 +4,31 @@
     height: 80vh;
 }
 
+.skills-title {
+    color: #FFAD12 ;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.skills-title:nth-child(1) {
+    margin-top: 0;
+}
+
+.skills-cv {
+    text-align: center;
+}
+
+.skills-cv a {
+    color: #FFAD12;
+    font-style: italic;
+}
+
+.skills-list {
+    text-align: center;
+}
+
 .img-cv {
     width: 50%;
 }

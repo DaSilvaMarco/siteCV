@@ -12,13 +12,13 @@ const Passions = () => {
       <Header />
       <div className="passions-pres flex-center align-center">
         <div className="passions-left">
-          <ul>
+          <ul className="passions-margin">
             {passions.map((passion) => (
               <PassionsList key={passion.id} passion={passion} />
             ))}
           </ul>
         </div>
-        <div className="passions-right">
+        <div className="passions-right flex-center align-center">
           <div className="grid">
             {passionsPictures.map((pic) => (
               <PassionsListPictures key={pic.id} pic={pic} />

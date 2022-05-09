@@ -4,6 +4,16 @@
     height: 80vh;
 }
 
-.passion-left, .passions-right {
+.passions-left, .passions-right {
     width: 50%;
+}
+
+.passions-name {
+    color: #FFAD12 ;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.passions-margin ul:not(:last-child) {
+    margin-bottom: 15px;
 }
