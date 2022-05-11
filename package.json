@@ -1,5 +1,6 @@
 {
   "name": "site-cv",
+  "homepage":"http://www.marcodasilva-dev.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
