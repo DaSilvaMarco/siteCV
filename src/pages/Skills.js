@@ -17,7 +17,7 @@ const Skills = () => {
     <div>
       <Header />
       <div className="skills-pres align-center">
-        <div className="flex-around align-center">
+        <div className="skills-presentation flex-around align-center">
           <div className="skills-left">
             <div>
               <p className="skills-title">Langues :</p>
@@ -53,7 +53,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="skills-right flex-center align-center">
-            <div className="grid">
+            <div className="skills-grid">
               {skillsPictures.map((picture) => (
                 <SkillsPicturesList picture={picture} key={picture.id} />
               ))}

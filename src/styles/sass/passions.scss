@@ -17,3 +17,118 @@
 .passions-margin ul:not(:last-child) {
     margin-bottom: 15px;
 }
+
+.passions-grid {
+    display: grid;
+    gap: 10px 10px;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px 150px;
+    grid-template-areas: 
+        "grid1 grid1 grid4 grid4"
+        "grid1 grid1 grid4 grid4"
+        "grid3 grid5 grid2 grid2"
+        "grid6 grid7 grid2 grid2";
+}
+
+.grid1 {
+    grid-area: grid1;
+}
+
+.grid2 {
+    grid-area: grid2;
+}
+
+.grid3 {
+    grid-area: grid3;
+}
+
+.grid4 {
+    grid-area: grid4;
+}
+
+.grid5 {
+    grid-area: grid5;
+}
+
+.grid6 {
+    grid-area: grid6;
+}
+
+.grid7 {
+    grid-area: grid7;
+}
+
+.grid1 img, .grid2 img, .grid3 img, .grid4 img, .grid5 img, .grid6 img, .grid7 img {
+    border-radius: 10px;
+    border: 1px #FFAD12 solid;
+}
+
+.img-achievments1, .img-achievments2, .img-achievments3, .img-achievments4, .img-achievments5, .img-achievments6, .img-achievments7 {
+    height: 100%;
+}
+
+@media screen and (max-width: 1600px) {
+
+    .passions-pres {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+
+    .passions-pres {
+        height: auto;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .passions-left, .passions-right {
+        width: 100%;
+    }
+
+    .passions-left {
+        margin-top: 50px;
+    }
+
+    .passions-pres {
+        width: 90%;
+        height: auto;
+        display: block;
+    }
+
+    .passions-right {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 750px) {
+
+    .passions-grid {
+        justify-content: center;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(2, 170px);
+        grid-template-areas: 
+            "grid1 grid2"
+            "grid3 grid3"
+            "grid3 grid3"
+            "grid4 grid5"
+            "grid6 grid6"
+            "grid6 grid6"
+            "grid7 grid7"
+            "grid7 grid7"
+      
+    }
+
+    .passions-left {
+        text-align: center;
+    }
+
+
+}

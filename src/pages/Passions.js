@@ -19,7 +19,7 @@ const Passions = () => {
           </ul>
         </div>
         <div className="passions-right flex-center align-center">
-          <div className="grid">
+          <div className="passions-grid">
             {passionsPictures.map((pic) => (
               <PassionsListPictures key={pic.id} pic={pic} />
             ))}

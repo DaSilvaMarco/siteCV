@@ -34,14 +34,14 @@ const Achievments = () => {
       <div className="achievments-presentation flex-center">
         <div className="achievments-pres flex-center align-center">
           <div>
-          {achievments.map((achievments) => (
-            <AchievmentsList achievments={achievments} key={achievments.id} />
-          ))}
+            {achievments.map((achievments) => (
+              <AchievmentsList achievments={achievments} key={achievments.id} />
+            ))}
           </div>
         </div>
-        <div className="profile flex-center align-center">
+        <div className="achievments-right flex-center align-center">
           <div>
-            <div className="grid">
+            <div className="achievments-grid">
               {pic.slice(0, 7).map((picture, index) => (
                 <PicturesList key={index} picture={picture} />
               ))}

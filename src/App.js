@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Mentions from "./pages/Mentions";
 import Passions from "./pages/Passions";
 import Skills from "./pages/Skills";
+import Contacts from "./pages/Contacts";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/mentions" element={<Mentions />} />
           <Route path="/galery" element={<Galery />} />
           <Route path="/experiences" element={<Experiences />} />
+          <Route path="/contacts" element={<Contacts />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
       </BrowserRouter>

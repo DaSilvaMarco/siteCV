@@ -7,7 +7,6 @@
 .presentation {
     width: 50%;
     height: 80vh;
-    text-align: justify;
     font-family: 'Open Sans', sans-serif;
     padding-right: 10px;
 }
@@ -30,10 +29,113 @@
 
 .profile {
     width: 50%;
-    max-height: 80vh;
+    height: 80vh;
 }
 
 .photo-profile {
-    max-height: 70%;
-    max-width: 70%;
+    height: auto;
+    width: 70%;
+}
+
+@media screen and (max-width: 1100px) {
+
+    .home-presentation {
+        width: 90%;
+    }
+
+    .photo-profile {
+        width: 80%;
+        height: auto;
+    }
+
+    .name {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .photo-profile {
+        width: 80%;
+        height: auto;
+    }
+
+    .name {
+        font-size: 35px;
+    }
+
+    .home-presentation {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .home-presentation {
+        height:auto;
+        width: 90%;
+    }
+
+    .profile {
+        height: auto;
+    }
+
+    .photo-profile {
+        width: 90%;
+        height: auto;
+    }
+
+    .name {
+        font-size: 30px;
+    }
+
+    .presentation {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .home-presentation {
+        display: block;
+    }
+
+    .profile {
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .presentation {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .home-presentation {
+        height: auto;
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+
+
+    .profile, .presentation {
+        width: 100%;
+        justify-content: center;
+        height: auto;
+        margin: 20px 0 20px 0;
+    }
+
+    .name {
+        font-size: 35px;
+    }
+
+
 }

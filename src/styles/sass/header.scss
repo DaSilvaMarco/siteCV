@@ -66,3 +66,82 @@
 a.nav-active li{
     color: #FFAD12;
 }
+
+.div-nav ul a:last-child {
+    display: none;
+}
+
+.resp-logo {
+    display: none;
+}
+
+.resp-menu {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    display: none;
+}
+
+.resp-menu ul a {
+    color: black;
+}
+
+.resp-menu ul li {
+    text-align: center;
+    font-size: 24px;
+    margin: 50px 0 50px 0;
+}
+
+@media screen and (max-width: 1100px) {
+
+    .section-home {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .div-header {
+        width: 95%;
+    }
+
+    .section-home {
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .div-header {
+        width: 95%;
+    }
+
+    .div-nav ul a {
+        display: none;
+    }
+
+    .resp-logo {
+        display: block;
+        width: 60px;
+        cursor: pointer;
+    }
+
+    .body.hidden {
+        overflow: hidden;
+    }
+
+    .body.open .resp-menu {
+        display: block;
+    }
+
+
+
+}
