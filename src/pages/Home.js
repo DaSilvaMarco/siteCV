@@ -5,7 +5,6 @@ import HomeList from "../components/HomeList";
 import person from "../data/Myself";
 
 const Home = () => {
-  console.log(person);
   return (
     <section>
       <Header />

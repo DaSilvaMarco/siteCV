@@ -200,6 +200,21 @@
             "grid15 grid15"
 
     }
+}
 
+@media screen and (max-height: 750px) {
 
+    .galery-grid {
+        justify-content: center;
+        height: auto;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(8, 120px);
+        grid-template-rows: repeat(4, 120px);
+        grid-template-areas: 
+            "grid1 grid1 grid1 grid2 grid3 grid4 grid4 grid5"
+            "grid1 grid1 grid1 grid6 grid7 grid4 grid4 grid8"
+            "grid1 grid1 grid1 grid9 grid9 grid10 grid11 grid11"
+            "grid12 grid13 grid14 grid9 grid9 grid15 grid11 grid11";
+    }
 }

@@ -129,6 +129,27 @@
     .passions-left {
         text-align: center;
     }
+}
 
+@media screen and (max-height: 750px) {
 
+    .passions-left {
+        font-size: 14px;
+    }
+
+    .passions-right, .passions-left {
+        width: 50%;
+    }
+
+    .passions-grid {
+        display: grid;
+        gap: 10px 10px;
+        grid-template-columns: repeat(4, 120px);
+        grid-template-rows: repeat(4, 120px);
+        grid-template-areas: 
+            "grid1 grid1 grid4 grid4"
+            "grid1 grid1 grid4 grid4"
+            "grid3 grid5 grid2 grid2"
+            "grid6 grid7 grid2 grid2";
+    }
 }

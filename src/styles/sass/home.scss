@@ -135,7 +135,22 @@
 
     .name {
         font-size: 35px;
+        text-align: center;
+    }
+
+    .home-presentation {
+        text-align: center;
     }
 
 
+}
+
+@media screen and (max-width: 450px) {
+    .name {
+        font-size: 25px;
+    }
+
+    .age {
+        font-size: 18px;
+    }
 }
