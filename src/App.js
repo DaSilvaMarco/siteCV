@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Achievments from "./pages/Achievments";
 import ErrorPage from "./pages/ErrorPage";
 import Experiences from "./pages/Experiences";
@@ -12,7 +12,7 @@ import Contacts from "./pages/Contacts";
 function App() {
   return (
     <div>
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/achievments" element={<Achievments />} />
@@ -24,7 +24,7 @@ function App() {
           <Route path="/contacts" element={<Contacts />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
